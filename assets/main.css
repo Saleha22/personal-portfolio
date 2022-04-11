@@ -1,0 +1,51 @@
+body{ font-size: 20px; }
+
+nav{
+    background: #FFA9A9;
+    padding: 10px;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 40px;
+}
+
+nav a:hover{
+    color: blue;
+}
+
+#contact, #about, #projects{
+    clear:both;
+    border-bottom: 5px solid yellowgreen;
+}
+
+#contact img,#contact div,#about img,#about div,#projects img,#projects div{
+    float: left;
+    margin: 20px;
+    width: 45%;
+}
+
+#contact-info{
+    background: #FFA9A9;
+    padding: 10px 10px 30px 10px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.button{
+    background: navy;
+    color: white;
+    padding: 10px;
+    display: block;
+    width: 100px;
+    text-decoration: none;
+    margin-top: 20px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px){
+	#contact img,#contact div,#about img,#about div,#projects img,#projects div{ width: 90%; }
+}
