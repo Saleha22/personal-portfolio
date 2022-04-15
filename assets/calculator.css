@@ -1,0 +1,30 @@
+#calculator {
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+  width: 40%;
+  text-align: center;
+}
+
+#calculator button {
+  background: rgb(0, 30, 71);
+  color: white;
+  padding: 5px;
+  width: 200px;
+  margin: 20px 0px;
+  border: 0px;
+  border-radius: 20px;
+}
+
+#calculator input {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#calculator .resultBox {
+  margin: 20px 0px;
+  background: rgb(11, 113, 11);
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+}
