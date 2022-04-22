@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+}
+#securePassword{
+    border: 2px dashed grey;
+    padding: 20px;
+    font-weight: bold;
+    color: rgba(0, 0, 255, 0.728);
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+#generatePasswordButton{
+    background: red;
+    width: 200px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px 0px;
+    border: 0px;
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+    width: 100%;
+}
+
+#securePasswordContainer{
+    background: rgb(249, 249, 249);
+    border-radius: 20px;
+    border: 2px solid rgba(0, 0, 255, 0.728);
+    padding: 20px;
+    text-align: center;
+    width: 95%;
+    margin: 2%;
+}
+
+@media only screen and (max-width: 600px){
+	#securePasswordContainer{
+        margin: 0%;
+        border: 0px;
+        padding: 0px;
+    }
+}
